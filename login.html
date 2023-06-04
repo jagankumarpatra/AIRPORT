@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <style>
+     body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.alphacoders.com/739/739868.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Add this line to remove the scroll bar */
+  }
+      /* Navbar styling */
+      .navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .navbar-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .navbar-menu li {
+            margin-right: 15px;
+        }
+        
+        .navbar-menu li:last-child {
+            margin-right: 0;
+        }
+        
+        .navbar-menu li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .navbar-menu li a:hover {
+            color: #ffcc00;
+        }
+        /* End of Navbar styling */
+
+    .container {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 100vh;
+      margin-left: 11%;
+    }
+    
+    .login-form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+      width: 20%;
+    }
+    
+    .login-form input,
+    .login-form button {
+      display: block;
+      width: 90%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    .login-form button {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      justify-content: center;
+      margin: auto;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-brand">Airport Portal</div>
+    <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="./signup.html">Sign Up</a></li>
+    </ul>
+</div>
+
+  <div class="container">
+    <div class="login-form">
+      <input type="text" placeholder="Enter Email" id="email" />
+      <input type="password" placeholder="Enter Password" id="password" />
+      <button onclick="findUser()">Login</button>
+    </div>
+  </div>
+  <script src="./login.js"></script>
+</body>
+</html>

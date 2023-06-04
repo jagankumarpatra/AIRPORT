@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Portal</title>
+    <link rel="stylesheet" href="description.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">Airport Portal</div>
+        <h4><a href="#images">Home</a></h4>
+        <h4><a href="#ticket">Book Ticket</a></h4>
+        <h4><a href="#Testimonials">Testimonials</a></h4>
+        <h4><a href="#contact" >Contact us</a></h4>
+        <h4 id="logout">Log out</h4>
+    </div>
+    
+    <div id="images">
+        <img src="https://images.unsplash.com/photo-1520437358207-323b43b50729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhbmUlMjB0YWtlb2ZmfGVufDB8fDB8fHww&w=1000&q=80" alt="Image 1">
+        <img src="https://images.unsplash.com/photo-1559023234-1e773470544f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbmUlMjB0YWtlb2ZmfGVufDB8fDB8fHww&w=1000&q=80" alt="Image 2">
+        <img src="https://wallpapers.com/images/featured/rfshatrpfmx3mok7.jpg" alt="Image 3">
+        <img src="https://images.unsplash.com/photo-1520437358207-323b43b50729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGxhbmUlMjB0YWtlb2ZmfGVufDB8fDB8fHww&w=1000&q=80" alt="Image 1">
+        <img src="https://images.unsplash.com/photo-1559023234-1e773470544f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbmUlMjB0YWtlb2ZmfGVufDB8fDB8fHww&w=1000&q=80" alt="Image 2">
+        <img src="https://wallpapers.com/images/featured/rfshatrpfmx3mok7.jpg" alt="Image 3">
+        
+    </div>
+
+    <div class="container" >
+        
+    <form id="ticket">
+        <h2 align="center">Book yr Flight Ticket</h2>
+        
+        <div style="display: flex; justify-content: center;">
+            <div>
+              Name: <input type="text" id="name" placeholder="Enter your Name">
+            </div>
+            <div>
+              Email: <input type="email" id="email" placeholder="Enter your Email">
+            </div>
+            <div>
+              Age: <input type="number" id="age" placeholder="Enter your age">
+            </div>
+        </div>
+        
+        <br>
+
+        <div style="display: flex; justify-content: center;">
+            <div>
+                Boarding: <input type="text" id="Boarding" placeholder="Enter your Onboarding location">
+            </div>
+            <div style="margin-left: 20px;">
+                Destination: <input type="text" id="Destination" placeholder="Enter your destination location">
+            </div>
+        </div>
+
+        <br>
+
+        <div style="display: flex; justify-content: center;">
+            <div>
+                Boarding Date: <input type="date" id="bdate">
+            </div>
+            <div style="margin-left: 20px;">
+                Destination Date: <input type="date" id="ddate">
+            </div>
+        </div>
+
+        <br>
+
+       <button type="button" onclick="showTable()"> Click more details </button>
+
+        <!-- info details on off -->
+        <table border="1px" align="center">
+            <tr>
+                <th>Click  your favourite Flight </th>
+                <th>Boarding Station</th>
+                <th>Boarding Time</th>
+                <th>Destination Station</th>
+                <th>Arrival Time</th>
+                <th>Flight Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="radio"  id="Asia"></td>
+                <td></td>
+                <td>10:00 Am</td>
+                <td></td>
+                <td>9:00 Pm</td>
+                <td>Air Asia</td>
+                <td style="font-size: 18px;">&#8377;5000</td>
+
+            </tr>
+            <tr>
+                <td><input type="radio"  id="Vistar"></td>
+                <td></td>
+                <td>10:00 Am</td>
+                <td></td>
+                <td>8:00 Pm</td>
+                <td>Vistara</td>
+                <td style="font-size: 18px;">&#8377;4000</td>
+
+
+            </tr>
+            <tr>
+                <td><input type="radio"  id="Emirates"></td>
+                <td></td>
+                <td>9:30 Am</td>
+                <td></td>
+                <td>7:45 Pm</td>
+                <td>Emirates</td>
+                <td style="font-size: 18px;">&#8377;6500</td>
+
+            </tr>
+        </table>
+        <!-- end -->
+        <button id="submitBtn" type="submit" onclick="submitForm(event)">Book Ticket</button>
+    </form>
+</div>
+    <div id="Details"></div>
+
+    <div id="Testimonials">
+        <h2>Testimonials</h2>
+        <div >
+            <img src="WhatsApp Image 2023-06-04 at 20.21.40.jpg" alt="">
+            <h3>Ipsit Spandan Mohanty</h3>
+            <p>Cheaper cost best experience </p>
+            
+        </div>
+        <div >
+            <img src="WhatsApp Image 2023-05-29 at 10.54.49.jpg" alt="">
+            <h3>Jagan Kumar Patra</h3>
+            <p>More facility are provided</p>
+            
+        </div>
+        <div >
+            <img src="WhatsApp Image 2023-06-04 at 20.57.30.jpg" alt="">
+            <h3>Sekhar Suman Sahoo</h3>
+            <p>Food Free </p>
+            
+        </div>
+        <div>
+            <img src="WhatsApp Image 2023-06-04 at 21.00.10.jpg" alt="">
+            <h3>Anwesh Moharana</h3>
+            <p>Safety provided</p>
+        
+        </div>
+        <div>
+            <img src="WhatsApp Image 2023-06-04 at 21.00.31.jpg" alt="">
+            <h3>Asutosh Sahoo</h3>
+            <p>Experience was great</p>
+        
+        </div>
+    </div>
+
+    <!-- <div id="contact">
+        <h2>Contact us</h2>
+
+    </div> -->
+
+    <!-- CONTACT -->
+    <div id="contact">
+        
+        <form class="contact-form" name="contactForm">
+            <h2>Contact Us</h2>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <footer class="footer">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </footer>
+
+
+      <!-- scrool up -->
+      <button id="scrollUpButton" onclick="scrollToTop()">
+        <span>&#9650;</span>
+      </button>
+</body>
+<script src="description.js">
+    
+</script>
+</html>
+</html>

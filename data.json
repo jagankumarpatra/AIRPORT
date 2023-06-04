@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "id": 1685878483628,
+      "email": "ece.20becd70@silicon.ac.in",
+      "password": "jagan"
+    },
+    {
+      "id": 1685894945969,
+      "email": "sarun@gmail.com",
+      "password": "sit"
+    },
+    {
+      "id": 1685897782580,
+      "email": "jagankumar2024jobs@gmail.com",
+      "password": "123s"
+    },
+    {
+      "id": 1685904744245,
+      "email": "ece.20becd70@silicon.ac.in",
+      "password": "86"
+    },
+    {
+      "id": 1685907796008,
+      "email": "nikan@gmail.com",
+      "password": "NK34"
+    },
+    {
+      "id": 1685909587697,
+      "email": "vramjain11@gmail.com",
+      "password": "vm"
+    }
+  ],
+  "ticket-info": [
+    {
+      "id": 1685888100935,
+      "name": "Jagan",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "12",
+      "boarding": "london",
+      "destination": "BBsr",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685895018955,
+      "name": "Jagan Kumar Patra",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "21",
+      "boarding": "Bhubaneswar",
+      "destination": "BangKok",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685895018956,
+      "name": "Jagan Kumar Patra",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "21",
+      "boarding": "Bhubaneswar",
+      "destination": "BangKok",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685904934869,
+      "name": "Jagan Kumar Patra",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "21",
+      "boarding": "bhubaneswar",
+      "destination": "hyd",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685905055766,
+      "name": "Jagan Kumar Patra",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "21",
+      "boarding": "bhubaneswar",
+      "destination": "hyd",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685905055767,
+      "name": "Jagan Kumar Patra",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "21",
+      "boarding": "bhubaneswar",
+      "destination": "hyd",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685905284789,
+      "name": "Jagan Kumar Patra",
+      "email": "ece.20becd70@silicon.ac.in",
+      "age": "21",
+      "boarding": "bbsr",
+      "destination": "pakistan",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685905284790,
+      "name": "Jagan Kumar Patra",
+      "email": "ece.20becd70@silicon.ac.in",
+      "age": "21",
+      "boarding": "bbsr",
+      "destination": "pakistan",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685907907403,
+      "name": "nikan",
+      "email": "nikan@gmail.com",
+      "age": "22",
+      "boarding": "bbsr",
+      "destination": "hyd",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685907907404,
+      "name": "nikan",
+      "email": "nikan@gmail.com",
+      "age": "22",
+      "boarding": "bbsr",
+      "destination": "hyd",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685909626290,
+      "name": "rge",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "1",
+      "boarding": "frg",
+      "destination": "fe",
+      "selectedFlight": "Vistar"
+    },
+    {
+      "id": 1685909626291,
+      "name": "rge",
+      "email": "jagankumar2024jobs@gmail.com",
+      "age": "1",
+      "boarding": "frg",
+      "destination": "fe",
+      "selectedFlight": "Vistar"
+    }
+  ]
+}

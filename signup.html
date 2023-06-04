@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airport Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-image: url("https://www.rd.com/wp-content/uploads/2022/04/GettyImages-1140602972-e1651249657746.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .navbar-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .navbar-menu li {
+            margin-right: 15px;
+        }
+        
+        .navbar-menu li:last-child {
+            margin-right: 0;
+        }
+        
+        .navbar-menu li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .navbar-menu li a:hover {
+            color: #ffcc00;
+        }
+        /* End of Navbar styling */
+
+        #create_account {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 17.5%;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="password"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">Airport Portal</div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <div id="create_account">
+        <input type="text" id="email" placeholder="Enter email">
+        <input type="text" id="name" placeholder="Enter name">
+        <input type="number" id="number" placeholder="Number">
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="submitData()">Create Account</button>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
